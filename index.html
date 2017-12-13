@@ -1,57 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="materialize/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
-
   <title>Love Love Panda Desu</title>
 </head>
+
 <body>
-  <header class="header text-right">
-    <h1 class="main-title">Love Love Panda Desu</h1>
-    <p class="subtitle">The best place for panda lovers</p>
-  </header>
-  <section class="bg-image bg-image-medium bg-image-1"></section>
-
-  <section class="green-section">
-    <div class="row">
-      <div class="col-5">
-        <h3 class="common-title">About Pandas</h3>
-        <p>The giant panda (Ailuropoda melanoleuca, literally "black and white cat-foot"; Chinese: 大熊猫; pinyin: dà xióng māo, literally "big bear cat"), also known as panda bear or simply panda, is a bear native to south central China. It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its round body. The name "giant panda" is sometimes used to distinguish it from the unrelated red panda. Though it belongs to the order Carnivora, the giant panda's diet is over 99% bamboo. Giant pandas in the wild will occasionally eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-image bg-image-large bg-image-2"></section>
-
-
-  <section class="green-section">
-    <div class="pictures-container">
-      <h2 class="main-title">Pictures</h2>
+  <header>
+    <div class="container">
       <div class="row">
-        <div class="col-2">
-          <img src="" alt="">
-        </div>
-        <div class="col-2 col-offset-1">
-          <img src="" alt="">
-        </div>
-        <div class="col-2 col-offset-1">
-          <img src="" alt="">
-        </div>
-        <div class="col-2 col-offset-1">
-          <img src="" alt="">
+        <div class="col s12 right-align">
+          <h1>Love Love Panda Desu</h1>
+          <p>The best place for panda lovers</p>
         </div>
       </div>
+  </header>
 
+  <!--section hero-->
+  <section class="hero bg-image bg-image-medium bg-image-1"></section>
+  <section class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 col l8 push-l2 center-align about-text">
+          <h3 class="common-title padding2em">About Pandas</h3>
+          <p class="padding2em">The giant panda (Ailuropoda melanoleuca, literally "black and white cat-foot"; Chinese: 大熊猫; pinyin: dà xióng māo,
+            literally "big bear cat"), also known as panda bear or simply panda, is a bear native to south central China.
+            It is easily recognized by the large, distinctive black patches around its eyes, over the ears, and across its
+            round body. The name "giant panda" is sometimes used to distinguish it from the unrelated red panda. Though it
+            belongs to the order Carnivora, the giant panda's diet is over 99% bamboo. Giant pandas in the wild will occasionally
+            eat other grasses, wild tubers, or even meat in the form of birds, rodents or carrion. In captivity, they may
+            receive honey, eggs, fish, yams, shrub leaves, oranges, or bananas along with specially prepared food.</p>
+        </div>
+      </div>
     </div>
   </section>
-  
-  <section class="bg-image bg-image-large bg-image-3"></section>
-  
-  <footer>Love Love Panda - Laboratoria 2017</footer>
-
+   <!--section hero-->
+   <section class="hero bg-image bg-image-medium bg-image-2"></section>
+   <!--section galery-->
+   <section class="galery">
+     <div class="container">
+       <div class="row">
+         <div class="col s12 center-align">
+          <h2>Pictures</h2>
+        </div>
+       </div>
+       <div class="row">
+         <div class="col s12 m3 center-align materialboxed ">
+           <img src="assets/images/a1.jpg" alt="" class="outline mb-2em">
+         </div>
+         <div class="col s12 m3 center-align materialboxed">
+           <img src="assets/images/a2.jpg" alt="" class="outline mb-2em">
+         </div>
+         <div class="col s12 m3 center-align materialboxed">
+           <img src="assets/images/a3.jpg" alt="" class="outline mb-2em">
+         </div>
+         <div class="col s12 m3 center-align materialboxed">
+           <img src="assets/images/a4.jpg" alt="" class="outline mb-2em">
+         </div>
+       </div>
+       </div>
+   </section>
+   <!--section hero-->
+   <section class="hero bg-image bg-image-medium bg-image-3"></section>
+   <!--section footer-->
+ <footer class="footer right-align">
+   <div class="container">
+     <div class="row">
+       <div class="col s12">
+         <p>Love Love Panda - Laboratoria 2017</p>
+       </div>
+     </div>
+   </div>
+ </footer>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="materialize/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<script type="text/javascript" src="materialize/js/main.js"></script>
 </body>
 </html>
